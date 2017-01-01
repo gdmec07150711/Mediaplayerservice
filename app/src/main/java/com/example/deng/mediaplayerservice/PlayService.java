@@ -25,7 +25,7 @@ public class PlayService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        mediaPlayer=MediaPlayer.create(this,R.raw.Centuries);
+        mediaPlayer=MediaPlayer.create(this,R.raw.centuries);
         mediaPlayer.setLooping(true);
     }
 
